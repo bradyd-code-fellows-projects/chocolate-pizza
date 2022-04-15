@@ -1,0 +1,61 @@
+body {
+  width: max-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-headings {
+  background-color: darkcyan;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.header-left-text {
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+
+  background-color: brown;
+  display: flex;
+}
+
+.socials {
+  height: max-content;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: blue;
+  padding-right: 15px;
+}
+
+.main-heading-text {
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hero-img {
+  width: 100%;
+}
+
+header {
+  width: inherit;
+}
+
+main {
+  width: 80vw;
+}
