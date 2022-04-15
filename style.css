@@ -1,25 +1,23 @@
 body {
-  width: max-content;
+  width: 900px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .container {
-  background-color: aqua;
   display: flex;
   justify-content: space-between;
+  width: 900px;
 }
 
 .image-headings {
-  background-color: darkcyan;
   display: flex;
   justify-content: flex-start;
   align-content: center;
 }
 
 .header-left-text {
-  background-color: brown;
   display: flex;
   flex-direction: column;
 
@@ -28,8 +26,6 @@ body {
 .header-right {
   display: flex;
   flex-direction: row;
-
-  background-color: brown;
   display: flex;
 }
 
@@ -37,25 +33,63 @@ body {
   height: max-content;
   margin-top: auto;
   margin-bottom: auto;
-  background-color: blue;
   padding-right: 15px;
 }
 
 .main-heading-text {
-  background-color: brown;
   display: flex;
   flex-direction: column;
-
 }
 
 .hero-img {
-  width: 100%;
+  width: 900px;
 }
 
 header {
-  width: inherit;
+  width: 900px;
 }
 
 main {
-  width: 80vw;
+  width: 900px;
 }
+
+main p {
+  width: 900px;
+  padding-top: 10px;
+  text-indent: 1cm;
+}
+
+.ingredient-lists-container {
+  display: flex;
+  justify-content: center;
+  width: 900px;
+}
+
+.left-ingredient-list {
+  margin-right: 125px;
+}
+
+.right-ingredient-list {
+  margin-left: 125px;
+}
+
+.author-info-container {
+  display: flex;
+  justify-content: center;
+  width: 900px;
+}
+
+.share-recipe {
+  background-color: chocolate;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.small-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1%;
+}
+
